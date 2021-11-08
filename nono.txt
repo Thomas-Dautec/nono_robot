@@ -1,0 +1,61 @@
+quand le robot bouge en avance c'est environnement qui bouge en arrière.
+
+Le robot a des capteurs (boite avec des roues qui peut aller dans toute les direction il ne peut que tourner les roues comme une voiture). Il a deux moteurs (Gauche et droit) tout ce qu'il peut faire c'est décider de la vitesse des moteurs, et vtesse de rotation (tpurn,e))il a des yeux (capteurs) pour voir son enviromment , un champ de vision devant lui, en fonction de ce qi'il voit il tourne
+ Ce robot est dans un environnement, dans cet enviromment il y a des choses (carré, rectangle...). Son but est de bouger dans cet environnement. 
+Par exemple: trouver de la nourriture pour survivre, il doit trouver des objet spécifique pour monter sa batterie.
+
+Controleur: porogramme qui va faire bouger le robot:  Le robot a des 
+- perception (ce qu'il voit devant lui)-> regarder (entrée)
+- actions: vitesses de rotation -> agir (sortie)
+Il agit en fonction de ce qu'il voit, sa tâche précise est de tout nettoyer
+
+Trouver un bon controleur (le faire à la main). 
+
+Le robot bouge et en fonction des réglages que l'être humain rajoute il voit la répercution du robot
+
+Controleur: sorte de boucle
+
+PROJET TUTORE/ NONO LE ROBOT 
+
+controleur = réseau de neurone
+
+perception ->action
+vision -> vitesse
+
+modifier son comportement. Par exemple un robot qui arrive devant un obstable, il tourne a droite
+
+Robot dans un environnement à côté un panneau de réglages (avec des boutons/menu) pour régler les paramètre de la boite controleur
+Si le robot voit la même chose (ex obstacle) il fera la même chose (ex tourner à droite).
+
+Evite les obstacles rouges, ramasse les trucs verts
+
+Ex: bouton play, pause, stop...
+
+Application javascript (front-end), peut back-end (bouton save() pour sauvegarder sur le serveur)
+L'environnement peut être une map ou environemment qui bouge tout seul.
+
+L'appli peut être utilisée par plusieurs utilisateurs en parallèle. Ex: Concours. 
+javascript niveau affichage (front-end)
+Plus tard, du node ou php (back-end) pour stocker les environnements etc.
+
+
+Un seul acteur: utilisateur, 
+fonctionnalité: l'user peut faire ça, ça, ça et ça.
+
+cahier de charges, scenario, trello, diagramme de Gantt.
+
+Objectifs de la semaine: Regarder ceux qui existent sur internet: jeux javascript 2D. Semaine de réflexion. Imaginer comment on va procéder.
+Raffiner nos idées, se mettre d'accord. -> cahier de charges
+
+
+
+
+
+
+
+
+
+
+
+
+
